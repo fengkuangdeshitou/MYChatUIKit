@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		079FCCC149D4F52FC0E5C3E5 /* Pods-MYChatUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYChatUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MYChatUIKit_Tests/Pods-MYChatUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		37EDF780C565A356AC495530 /* MYChatUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MYChatUIKit.podspec; path = ../MYChatUIKit.podspec; sourceTree = "<group>"; };
+		37EDF780C565A356AC495530 /* MYChatUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MYChatUIKit.podspec; path = ../MYChatUIKit.podspec; sourceTree = "<group>"; };
 		3B5FB11BE276B3A27DF231B7 /* Pods_MYChatUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYChatUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52534FFE220D9916B4DC2336 /* Pods-MYChatUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYChatUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-MYChatUIKit_Tests/Pods-MYChatUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MYChatUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYChatUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		805E0EFA1233FF86A4569F41 /* Pods-MYChatUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYChatUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-MYChatUIKit_Example/Pods-MYChatUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		90C7A71CB89398A91B48F01D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90C7A71CB89398A91B48F01D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		957D1EB9D9DE7800DD48F4D0 /* Pods-MYChatUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYChatUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-MYChatUIKit_Example/Pods-MYChatUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9CA5023C5E2BD5E3523ED139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9CA5023C5E2BD5E3523ED139 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF38B4E9300908C5280178DD /* Pods_MYChatUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYChatUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				079FCCC149D4F52FC0E5C3E5 /* Pods-MYChatUIKit_Tests.debug.xcconfig */,
 				52534FFE220D9916B4DC2336 /* Pods-MYChatUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9LHGMW96NZ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9LHGMW96NZ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -512,7 +514,9 @@
 			baseConfigurationReference = 805E0EFA1233FF86A4569F41 /* Pods-MYChatUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LHGMW96NZ;
 				INFOPLIST_FILE = MYChatUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -527,7 +531,9 @@
 			baseConfigurationReference = 957D1EB9D9DE7800DD48F4D0 /* Pods-MYChatUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9LHGMW96NZ;
 				INFOPLIST_FILE = MYChatUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -541,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 079FCCC149D4F52FC0E5C3E5 /* Pods-MYChatUIKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9LHGMW96NZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -550,6 +557,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -563,11 +571,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 52534FFE220D9916B4DC2336 /* Pods-MYChatUIKit_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 9LHGMW96NZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

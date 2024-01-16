@@ -1,0 +1,6 @@
+framework module MYChatUIKit {
+  umbrella header "MYChatUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

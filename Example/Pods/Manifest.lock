@@ -1,0 +1,112 @@
+PODS:
+  - CocoaLumberjack (3.8.2):
+    - CocoaLumberjack/Core (= 3.8.2)
+  - CocoaLumberjack/Core (3.8.2)
+  - libwebp (1.3.2):
+    - libwebp/demux (= 1.3.2)
+    - libwebp/mux (= 1.3.2)
+    - libwebp/sharpyuv (= 1.3.2)
+    - libwebp/webp (= 1.3.2)
+  - libwebp/demux (1.3.2):
+    - libwebp/webp
+  - libwebp/mux (1.3.2):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.3.2)
+  - libwebp/webp (1.3.2):
+    - libwebp/sharpyuv
+  - lottie-ios (2.5.3)
+  - MJRefresh (3.7.6)
+  - MYChatUIKit (0.1.0):
+    - lottie-ios (= 2.5.3)
+    - MJRefresh
+    - NEChatKit
+    - NECommonKit
+    - NECommonUIKit
+    - SDWebImageSVGKitPlugin
+    - SDWebImageWebPCoder
+  - NEChatKit (9.6.5):
+    - NEChatKit/NOS (= 9.6.5)
+  - NEChatKit/NOS (9.6.5):
+    - NECommonKit (= 9.6.4)
+    - NECoreIMKit/NOS (= 9.6.5)
+    - NIMSDK_LITE (= 9.14.0)
+    - YXAlog (= 1.0.7)
+  - NECommonKit (9.6.4):
+    - YXAlog
+  - NECommonUIKit (9.6.5):
+    - NECommonKit
+    - SDWebImage
+    - YXAlog
+  - NECoreIMKit/NOS (9.6.5):
+    - NECoreKit (= 9.6.5)
+    - NIMSDK_LITE (= 9.14.0)
+    - YXAlog (= 1.0.7)
+  - NECoreKit (9.6.5):
+    - YXAlog (= 1.0.7)
+  - NIMSDK_LITE (9.14.0):
+    - NIMSDK_LITE/NOS (= 9.14.0)
+    - YXArtemis
+  - NIMSDK_LITE/NOS (9.14.0):
+    - YXArtemis
+  - SDWebImage (5.18.9):
+    - SDWebImage/Core (= 5.18.9)
+  - SDWebImage/Core (5.18.9)
+  - SDWebImageSVGKitPlugin (1.4.0):
+    - SDWebImage/Core (~> 5.10)
+    - SVGKit (~> 3.0)
+  - SDWebImageWebPCoder (0.14.2):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.17)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - YXAlog (1.0.7)
+  - YXArtemis (1.1.3)
+
+DEPENDENCIES:
+  - MYChatUIKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - libwebp
+    - lottie-ios
+    - MJRefresh
+    - NEChatKit
+    - NECommonKit
+    - NECommonUIKit
+    - NECoreIMKit
+    - NECoreKit
+    - NIMSDK_LITE
+    - SDWebImage
+    - SDWebImageSVGKitPlugin
+    - SDWebImageWebPCoder
+    - SVGKit
+    - YXAlog
+    - YXArtemis
+
+EXTERNAL SOURCES:
+  MYChatUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: f8d89a516e7710fdb2e9b8f1560b16ec6040eef0
+  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  MJRefresh: 2fe7fb43a5167ceda20bb7e63f130c04fd1814a5
+  MYChatUIKit: 2a911f31a40f1a1134b8ac84578eccdfa760bb7d
+  NEChatKit: e20b17157a293978158eb9b315938e4f21bd2884
+  NECommonKit: 349867076e6fb01f0b428e2d161cfd13da4ae627
+  NECommonUIKit: 89438be2f06988744f952198fb0d6204e029b58b
+  NECoreIMKit: 865a08841e3900b637559e5733466c2066e66adf
+  NECoreKit: ac9633687cde02f8a85e065b830274b28fb188ed
+  NIMSDK_LITE: 4daec0befc1a8f51688b6292592f61c95239abf0
+  SDWebImage: 5e9b5f18ce88146692b1a5c174858948c84ff237
+  SDWebImageSVGKitPlugin: 7542dd07c344ec3415ded0461a1161a6f087e0c9
+  SDWebImageWebPCoder: 633b813fca24f1de5e076bcd7f720c038b23892b
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  YXAlog: ac9bab3aff1326caa72cc25aedc358bc8d4f1b31
+  YXArtemis: 2771e9ac5e5e01867914835aedb03429d135043e
+
+PODFILE CHECKSUM: e924728910600e7f8eeefe824b3553f28aac39c5
+
+COCOAPODS: 1.14.3

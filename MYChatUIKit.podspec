@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MYChatUIKit'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'MYChatUIKit'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-  
+    s.vendored_frameworks = 'MYChatUIKit/NEChatUIKit.framework'
+    s.public_header_files = 'NEChatKit/NEChatKit-Swift.h'
+
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
